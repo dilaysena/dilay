@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | Dilay Sena Özökten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Dilay Sena Özökten</h2>
+    <nav>
+        <a href="index.html">home</a>
+        <a href="about.html" class="active">works</a>
+    </nav>
+</header>
+
+<section class="works">
+    <h1>Selected Works</h1>
+
+    <div class="works-grid">
+
+        <div class="work" data-images="sanatsalcamkompleksi.jpg,sc2.jpg,sc3.jpg,sc4.jpg,sc5.jpg,sc6.jpg">
+            <img src="images/sanatsalcamkompleksi.jpg" alt="Artistic Glass Complex">
+            <span>Artistic Glass Complex</span>
+        </div>
+
+        <div class="work" data-images="kuzguncuktoplulukmerkezi.jpg,k2.jpg,k3.jpg,k4.jpg,k5.jpg,k6.jpg">
+            <img src="images/kuzguncuktoplulukmerkezi.jpg" alt="Kuzguncuk Community Center">
+            <span>Kuzguncuk Community Center</span>
+        </div>
+
+        <div class="work" data-images="cicekci.jpg,c2.jpeg,c3.jpeg,c4.jpg,c5.jpg,c6.jpg,c7.jpg,c9.jpg,c10.jpg">
+            <img src="images/cicekci.jpg" alt="A Florist">
+            <span>A Florist</span>
+        </div>
+
+    </div>
+</section>
+
+<div id="lightbox" class="hidden">
+    <button id="closeBtn">×</button>
+    <button id="prevBtn" class="nav-btn">❮</button>
+    <button id="nextBtn" class="nav-btn">❯</button>
+    <img id="lightboxImg" src="" alt="Gallery Image">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
